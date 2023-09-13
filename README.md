@@ -1,0 +1,1 @@
+# Registration_and_Deregistration_Process_using_Free5gc_and_Ueransim
