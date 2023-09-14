@@ -2,6 +2,7 @@
 
 ### Registration Process:
 After successful installation of free5gc and ueransim to do registration following steps to be followed
+
 1.ssh in free5gc and run web-console in one terminal and stop it using ctrl+c and in the same terminal.
 
 Remember to do if the vm free5gc is restarted give
@@ -75,12 +76,15 @@ cd ~/UERANSIM
 sudo build/nr-ue -c config/free5gc-ue.yaml  
 ```
 3.6 start the UERANSIM in another terminal for deregistration and give
+
+can be approached in two ways:
+3.6.1
 ```
 cd ~/UERANSIM
 build/nr-cli imsi-(xxxxxxxxxxxxxxx) --exec 'deregister normal'
 ```
   (or)
-
+3.6.2
 ```
 build/nr-cli imsi-(xxxxxxxxxxxxxxx)
 ```
