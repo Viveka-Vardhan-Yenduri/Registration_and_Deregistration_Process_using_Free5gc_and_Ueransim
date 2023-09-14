@@ -37,15 +37,15 @@ Now stop the UE, GNB and tcpdump in order by using ctrl+c in the respective term
 
 ### Deregistration Process:
 
-1. shh into free5gc in 3 individual terminals.
-•	Webconsole
-•	To run free5gc
-•	tcpdump
+1.shh into free5gc in 3 individual terminals.
+* Webconsole
+* To run free5gc
+* tcpdump
 
-2. ssh into UERANSIM in 3 individual terminals.
-•	GNB
-•	UE
-•	Deregistration
+2.ssh into UERANSIM in 3 individual terminals.
+* GNB
+* UE
+* Deregistration
 
 3.1 ssh in free5gc and run web-console in one terminal.
 
